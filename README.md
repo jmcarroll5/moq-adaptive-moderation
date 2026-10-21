@@ -115,3 +115,9 @@ npm install
 ## Contributing
 
 Contributions are welcome. Open an issue or submit a pull request for improvements, bug fixes, documentation, or interoperability work.
+
+
+# New Updates since moq-adaptive-moderation
+## restore commit checks with
+git config --local --unset core.hooksPath
+

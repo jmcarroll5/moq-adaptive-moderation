@@ -1,0 +1,11 @@
+[package]
+name = "adaptive-analyzer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+moqtail = { version = "*", path = "../../libs/moqtail-rs" }
+tokio = { version = "1.53", features = ["full"] }
+anyhow = "1.0.104"
+tracing = "0.1.44"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
